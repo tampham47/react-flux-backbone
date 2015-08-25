@@ -18,6 +18,9 @@ module.exports = React.createClass({
             case 'flickr':
                 return require('project/flickr/components/Flickr');
 
+            case 'github':
+                return require('project/github/components/Github');
+
             case 'todos':
             default:
                 return require('project/todos/components/Todos');

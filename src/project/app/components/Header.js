@@ -9,6 +9,7 @@ module.exports = React.createClass({
             <ul className="list-inline">
                 <li><RouterLink href="todos">Todos</RouterLink></li>
                 <li><RouterLink href="flickr">Flickr</RouterLink></li>
+                <li><RouterLink href="github">Github</RouterLink></li>
                 <li><RouterLink href="help">Help</RouterLink></li>
             </ul>
             <hr />

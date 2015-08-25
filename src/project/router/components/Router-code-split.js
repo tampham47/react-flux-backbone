@@ -48,6 +48,12 @@ module.exports = React.createClass({
                     }.bind(this));
                     break;
 
+                case 'github':
+                    require.ensure([], function() {
+                        this.ensureBodyComponent(route, require('project/github/components/Github'));
+                    }.bind(this));
+                    break;
+
                 case 'todos':
                 default:
                     require.ensure([], function() {

@@ -7,6 +7,8 @@ module.exports = {
         "todos": 'todos',
         "flickr": 'flickr',
         "flickr/:query": 'flickr',
+        "github": 'github',
+        "github/:query": 'github',
         "help": 'help'
     },
 
